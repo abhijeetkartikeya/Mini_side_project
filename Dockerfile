@@ -9,4 +9,4 @@ COPY . .
 
 ENV PYTHONUNBUFFERED=1
 
-CMD ["python", "weather_mcp_server.py"]
+CMD ["python", "openmeteo_exporter.py"]
